@@ -16,7 +16,7 @@ const VehicleMarker = ({ position, route, currentStep, setBearing, bearing }) =>
       position={position}
       icon={L.divIcon({
         className: 'vehicle-icon',
-        html: `<img src='../public/vehicle-icon.png' style='transform: rotate(${bearing}deg); width: 35px; height: 35px;' />`,
+        html: `<img src='vehicle-icon.png' style='transform: rotate(${bearing}deg); width: 35px; height: 35px;' />`,
       })}
     >
       <Popup>
